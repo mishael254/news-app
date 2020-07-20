@@ -2,6 +2,7 @@ class Config:
     '''
     parent configuration class
     '''
+    NEWS-API-URL = 'http://newsapi.org/v2/top-headlines?country=us&apiKey={}'
     pass
 
 class ProdConfig(Config):
