@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+​
+{% block content %}
+<div class="container-fluid">
+    <h2 class="top text-capitalize text-center">The Articles {{id}}</h2>
+    <h2 class="top"> Headlines</h2>
+    <hr>
+
+    <div class="row">
+        {% for article in articles %}
+        <div class="col-md-4 col-sm-6 p-2" id="articlecard">
+            <div class="card h-100" id="cardcontent">
+                <img src="{{article.image}}" alt="{{article.title}}" class="card-img-top">
+                <div class="card-body">
+                    <div class="card-text">
+                        {{article.description | truncate(150)}}
+                    </div>
+                    <a href="{{article.url}}"class='card-link' target="_blank"> Read More</a>
+                </div>
+                <div class="card-footer">
+                    Published at: {{article.date}}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    ​
+</div>
+{% endblock%}
