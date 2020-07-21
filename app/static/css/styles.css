@@ -32,25 +32,25 @@ h2{
 
 }
 .btn{
-    border: 2px solid rgb(70, 70, 187);
-    color:rgb(59, 59, 199);
+    border: 2px solid rgb(187, 97, 70);
+    color:rgb(199, 134, 59);
     
 }
 .btn1{
-    border: 2px solid blue;
-    color: rgb(130, 193, 231);
+    border: 2px solid orange;
+    color: rgb(49, 197, 81);
     
 }
 .btn2{
-    border: 2px solid blue;
+    border: 2px solid rgb(182, 50, 131);
     color:rgb(151, 228, 151);
     
 }
 .btn:hover{
     background-color : blue;
-    color:rgb(236, 233, 233);
+    color:rgb(114, 56, 56);
     width: 10%;
 }
 .container_fluid{
-    background-color: rgb(65, 184, 184);
+    background-color: rgb(194, 48, 199);
 }
