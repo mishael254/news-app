@@ -1,4 +1,4 @@
-#!/home/mishael/Desktop/news-app/virtual/bin/python
+#!/home/mishael/Desktop/news-master/news-master/virtual/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
