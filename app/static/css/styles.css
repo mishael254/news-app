@@ -54,3 +54,6 @@ h2{
 .container_fluid{
     background-color: rgb(194, 48, 199);
 }
+body {
+    background-color: orange;
+}
